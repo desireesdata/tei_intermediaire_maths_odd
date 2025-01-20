@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="out/tei_intermediaire_oddgenerated.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Intermédiaire des mathématiciens</title>
+            <author ref="http://www.idref.fr/030301092/id">
+               <forename>Charles-Ange</forename>
+               <surname>Laisant</surname>
+            </author>
+            <author ref="http://www.idref.fr/175647542/id">
+               <forename>Emile</forename>
+               <surname>Lemoine</surname>
+            </author>
+            <respStmt>
+               <resp>Encodage de la revue amateur "Intermédiaire des mathématiciens"</resp>
+               <persName>
+                  <forename>Joël</forename>
+                  <surname>F.</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Ecole Nationale des Chartes</publisher>
+            <pubPlace>
+               <address>
+                  <country key="FR"/>
+                  <settlement type="city">Paris</settlement>
+                  <postCode>75002</postCode>
+                  <district type="arrondissement">2eme</district>
+                  <street>rue de Richelieu, <num>65</num>
+                  </street>
+               </address>
+            </pubPlace>
+            <date when-iso="2025">2025</date>
+            <distributor>Fake distributor</distributor>
+            <availability>
+               <licence>Domaine public</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Intermédiaire des Mathématiciens</title>
+                  <author ref="http://www.idref.fr/030301092/id">
+                     <forename>Charles-Ange</forename>
+                     <surname>Laisant</surname>
+                  </author>
+                  <author ref="http://www.idref.fr/175647542/id">
+                     <forename>Emile</forename>
+                     <surname>Lemoine</surname>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>Gauthier-Villars et Fils, imprimeurs-librairies</publisher>
+                  <pubPlace>
+                     <address>
+                        <country key="FR"/>
+                        <settlement type="city">Paris</settlement>
+                        <postCode>75006</postCode>
+                        <district type="arrondissement">6e</district>
+                        <street> Quai des Grands-Augustins, <num>55</num>
+                        </street>
+                     </address>
+                  </pubPlace>
+                  <date when-iso="1896">1896</date>
+                  <distributor facs="http://www.idref.fr/02754284X/id">Bibliothèque de l'Institut Henri Poincaré</distributor>
+                  <availability>
+                     <licence>Domaine public</licence>
+                  </availability>
+               </publicationStmt>
+            </biblFull>
+            <!-- AUTORITES -->
+            <listPerson>
+               <person xml:id="A_HAL_01">
+                  <persName>Asaph Hall</persName>
+                  <idno type="Wikidata">Q106559</idno>
+               </person>
+               <person xml:id="MF_TISS_01">
+                  <persName>Félix Tisserand</persName>
+                  <idno type="Wikidata">Q29002</idno>
+               </person>
+               <person xml:id="MCV_ZEN_01">
+                  <persName>C.-V. Zenger</persName>
+               </person>
+               <person xml:id="H_BRO_01">
+                  <persName>Henri Brocard</persName>
+                  <idno type="Wikidata">Q572312</idno>
+               </person>
+               <person xml:id="J_VOY_01">
+                  <persName>J. Voyer</persName>
+               </person>
+               <person xml:id="RAN_01">
+                  <persName>Rankine</persName>
+               </person>
+               <person xml:id="G_PEA_01">
+                  <persName>Guiseppe Peano</persName>
+                  <idno type="Wikidata">Q191029</idno>
+               </person>
+            </listPerson>
+            
+            <listOrg>
+               <org xml:id="SOC_JAB_01">
+                  <orgName>Société Jablowski</orgName>
+               </org>
+            </listOrg>
+            
+            <listPlace>
+               <place xml:id="DE_LEI">
+                  <placeName>Leipzig</placeName>
+                  <idno type="Wikidata">Q2079</idno>
+               </place>
+               <place xml:id="UK_LON">
+                  <placeName>Leipzig</placeName>
+                  <idno type="Wikidata">Q84</idno>
+               </place>
+               <place xml:id="IT_TUR">
+                  <placeName>Turin</placeName>
+                  <idno type="Wikidata">Q495</idno>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date when-iso="1896">1896</date>
+            <country key="FR">France</country>
+            <lang xml:lang="fr"/>
+         </creation>
+      </profileDesc>
+      <encodingDesc>
+         <p>
+            Cet encodage a été réalisé à partir des revues mathématiques disponibles à la Bibliothèque Henri Poincaré.
+         </p>
+      </encodingDesc>
+   </teiHeader>
+   
+   <!-- o//////////////////////////////*//////////////////////////////o -->
+   
+   <text>
+      <front>
+         <!-- Before the encoded fragment -->
+      </front>
+      
+      <body>
+        <!-- SAMPLE ENCODED : "1_IM_reponses.jpg" -->
+         <div section="reponses">
+            <head rend="align(center) case(allcaps)">
+               Réponses.
+            </head>
+            <contribution ref="96">
+               <proposedBy pseudo="true"><persName ref="#A_HAL_01">Asaph Hall</persName></proposedBy>
+               <topic category="astronomy">Au sujet de l'orbite de Mercure</topic>
+               <p>Ayant remarqué sur un programme des prix proposés par la <orgName ref="#SOC_JAB_01">Société Jablowski</orgName>, à <placeName ref="#DE_LEI">Leipzig</placeName> pour <date when="1876">1876</date>, la mention d'une question [...]</p>
+               <p>Pour la position de la question, on consultera avec intérêt les notices de M.<persName ref="#MF_TISS_01">F. Tisserand</persName>, publiée dans [...] </p>
+               <p>Dans une Communication présentée par M.<persName ref="#MCV_ZEN_01">C.-V. Zenger</persName> [...]</p>
+               <resolvedBy><persName ref="H_BRO_01">H. Brocard</persName></resolvedBy>
+            </contribution>
+            
+            <contribution ref="101">
+               <proposedBy><persName ref="#J_VOY_01">J. Voyer</persName></proposedBy>
+               <topic category="physics">Sur l'équilibre d'un fil pesant et inextensible.</topic>
+               <p>On trouve la solution exacte du problème dans M.<ref><persName ref="#RAN_01">Rankine</persName>, A manual of applied mechanics (<placeName ref="#UK_LON">London</placeName>, <date when="1861">1861</date>, p. 179)</ref>.</p>
+               <resolvedBy><persName ref="#G_PEA_01">G. Peano</persName><from><placeName ref="#IT_TUR">Turin</placeName></from></resolvedBy>
+            </contribution>
+         </div>
+         <!-- SAMPLE ENCODED : "2_IM_table_q_r.jpg" -->
+         <div section="table_q_r">
+            <head rend="align(center) case(allcaps)">
+               Table des questions et réponses.
+            </head>
+            <p>Chacune des questions publiées dans le tome III porte un numéro d'ordre suivi de la lettre de l'Index du Répertoire Bibliographique, servant à désigner la classe de la question correspondante. Les autres nombres de la Table indiquent les pages du Volume.</p>
+            <p>La lettre R indique qu'il existe des réponses ou des Notes en portefeuille, à publier ultérieurement [...]</p>
+            <p>La lettre Σ désigne les <emph>sujets d'études</emph>, pour lesquels nous avons [...]</p>
+            
+            <contributionTable>
+               <table cols="2">
+                  <head>
+                     <cb n="1">Questions posées. Tome 1</cb><cb n="2">Réponses Tome III.</cb>
+                  </head>
+                  <row>
+                     <cell type="questionRef" n="1">8</cell>
+                     <cell type="categoryRef" n="1">L3</cell>
+                     <cell type="pageQuestionRef" n="1">3</cell>
+                     <cell type="pageAnswerRef" n="2">155</cell>
+                  </row>
+                  <row>
+                     <cell n="1" type="questionRef">35</cell>
+                     <cell n="1" type="categoryRef">V</cell>
+                     <cell n="1" type="pageQuestionRef">9</cell>
+                     <cell n="2" type="pageAnswerRef">87</cell>
+                  </row>
+                  <!-- [...] -->
+                  <row>
+                     <cell n="1" type="questionRef">209</cell>
+                     <cell n="1" type="categoryRef">O</cell>
+                     <cell n="1" type="pageQuestionRef">102</cell>
+                     <cell n="2" type="pageAnswerRef">225</cell>
+                  </row>
+                  <!-- [...] -->
+                  <row>
+                     <cell n="1" type="questionRef">387.</cell>
+                     <cell n="1" type="categoryRef">V</cell>
+                     <cell n="1" type="pageQuestionRef">233</cell>
+                     <cell n="2" type="pageAnswerRef">250</cell>
+                  </row>
+               </table>
+            </contributionTable>
+         </div>
+         
+         <!-- SAMPLE ENCODED : "3_IM_table_noms_...jpg" -->
+         <div section="table_authors">
+            <head rend="align(center) case(allcaps)">
+               Table par noms d'auteurs.
+            </head>
+            <!-- [...] -->
+         </div>
+      </body>
+   </text>
+</TEI>
+
